@@ -225,6 +225,20 @@ background-repeat: round;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+.pool-box-list2 {
+  width: 15rem;
+  height: 15rem;
+  padding: 10px 10px;
+  flex: 1;
+  text-align: center;
+  background: #fff;
+  margin: 3px 3px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+}
+
 @media (min-width: 640px) {
   .pool-section .pool-box-list {
     width: 80px;
