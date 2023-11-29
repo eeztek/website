@@ -3,14 +3,14 @@ import React from 'react'
 
 const Testimonial = () => {
   return (
-    <div id="" className="mx-auto max-w-8xl  py-5  md:px-6 md:py-10">
+    <div id="" className="mx-auto max-w-8xl  pt-32 sm:pt-44 md:px-6">
     <h2 className="heading-style-3 text-center">
     Testimonial
     </h2>
     <h1 className="heading-style-2  text-center ">
     What our clients are talking about us
     </h1>
-        <div className="mt-8 mx-auto max-w-xl rounded-md bg-black p-1">
+        <div className="mx-auto  mt-8 max-w-xl rounded-md bg-black p-2">
           <div className="flex flex-col rounded-md bg-white">
             <div className="flex flex-1 flex-col justify-between p-8">
               <div className="mb-4 flex space-x-2">

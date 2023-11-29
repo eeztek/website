@@ -55,7 +55,15 @@ export function Navbar() {
           >
             Industries
           </a>
+        </li><li>
+          <a
+            href="#section-6"
+            className="inline-flex items-center text-md font-semibold"
+          >
+            Technologies
+          </a>
         </li>
+
         <li>
         <a
           href="#section-5"
@@ -124,6 +132,15 @@ export function Navbar() {
                 >
                   <span className="ml-3 text-base font-medium">
                   Industries
+                        </span>
+                  
+                </a>
+                <a
+                   href="#section-6"
+                  className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
+                >
+                  <span className="ml-3 text-base font-medium">
+                  Technologies
                         </span>
                   
                 </a>

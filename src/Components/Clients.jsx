@@ -8,7 +8,7 @@ import logo4 from "../assets/images/1.png";
 export function Clients() {
   return (
     <>
-      <div className="mx-auto max-w-7xl pt-5">
+      <div className="mx-auto max-w-7xl pt-8">
       <div className="mx-auto max-w-xl text-center">
            
            <h1 className="heading-style-2  text-center ">

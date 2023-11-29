@@ -18,7 +18,7 @@ const About = () => {
     <section id="section-1">
       <div
       // style={styles}
-        className="z-1 relative ml-5 pr-3 py-12 my-20 md:py-10  lg:flex lg:flex-row lg:items-center justify-center"
+        className="z-1 relative ml-5 pr-3  pb-20 sm:pb-32 pt-44 sm:pt-52  lg:flex lg:flex-row lg:items-center justify-center"
       >
         <div className="w-full lg:w-1/3">
           <img

@@ -198,7 +198,7 @@ const Stepper = () => {
 
 
   return (
-<div id="section-3" className="mt-4">
+<div id="section-3" className="pt-32 sm:pt-44">
 <br></br>
   <br></br>
   <h2 className="heading-style-3 text-center">
@@ -249,7 +249,8 @@ const Stepper = () => {
         className="mt-3"
           elevation={3}
           sx={{
-            padding: "15px",
+            paddingBottom: "16px",
+            paddingTop:"18px",
             backgroundColor: "#152445", // Green background
             color: "#fc3737", // White text
             display: "flex",
