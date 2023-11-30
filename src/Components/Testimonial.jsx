@@ -10,7 +10,7 @@ const Testimonial = () => {
     <h1 className="heading-style-2  text-center ">
     What our clients are talking about us
     </h1>
-        <div className="mx-auto  mt-8 max-w-xl rounded-md bg-black p-2">
+        <div className="mx-8 sm:mx-auto  mt-8 max-w-xl rounded-md services-box p-2">
           <div className="flex flex-col rounded-md bg-white">
             <div className="flex flex-1 flex-col justify-between p-8">
               <div className="mb-4 flex space-x-2">
@@ -33,7 +33,7 @@ const Testimonial = () => {
               </div>
               <div className="flex-1 pt-2">
                 <blockquote>
-                  <p className="text-lg text-gray-800">
+                  <p className="font-style-3">
                     “Finally, I&apos;ve found a template that covers all bases for a bootstrapped
                     startup. We were able to launch in days, not months.”
                   </p>

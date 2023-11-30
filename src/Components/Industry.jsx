@@ -5,7 +5,7 @@ import "../index.css";
 export function Industry() {
   return (
 
-    <div id="section-4" className="mx-auto max-w-7xl  pt-32 sm:pt-44 md:px-6">
+    <div id="industries" className="mx-auto max-w-7xl  pt-32 sm:pt-44 md:px-6">
     <h2 className="heading-style-3 text-center">
     Industries We Serve
           </h2>
@@ -14,7 +14,7 @@ export function Industry() {
     </h1>
     
     
-    <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-3 xl:gap-16">
+    <div className="mx-8 sm:mx-0 mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-3 xl:gap-16">
       <div 
        style={{backgroundImage: "url('https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/portfolio-8-760x560.jpg')"}}
       className="card border-solid border rounded-md border-grey p-5 space-y-3">

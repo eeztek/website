@@ -6,7 +6,7 @@ export function Services() {
     
   return (
     <>
-      <div id="section-2" className="mx-auto max-w-7xl  pt-32 sm:pt-44 md:px-6">
+      <div id="services" className="mx-auto max-w-7xl  pt-32 sm:pt-44 md:px-6">
         <h2 className="heading-style-3 text-center">Our Services</h2>
         <h1 className="heading-style-2  text-center ">
           Preparing for Your Success, We Provide End-to-End IT Services

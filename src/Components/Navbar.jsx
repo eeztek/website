@@ -26,7 +26,7 @@ export function Navbar() {
             
               <li>
                 <a
-                   href="#section-1"
+                   href="#about"
                   className="inline-flex items-center text-md font-semibold"
                 >
                   About
@@ -34,7 +34,7 @@ export function Navbar() {
               </li>
               <li>
               <a
-                href="#section-2"
+                href="#services"
                 className="inline-flex items-center text-md font-semibold"
               >
                 Services
@@ -42,7 +42,7 @@ export function Navbar() {
             </li>
             <li>
             <a
-              href="#section-3"
+              href="#process"
               className="inline-flex items-center text-md font-semibold"
             >
               Process
@@ -50,14 +50,14 @@ export function Navbar() {
           </li>
           <li>
           <a
-            href="#section-4"
+            href="#industries"
             className="inline-flex items-center text-md font-semibold"
           >
             Industries
           </a>
         </li><li>
           <a
-            href="#section-6"
+            href="#technologies"
             className="inline-flex items-center text-md font-semibold"
           >
             Technologies
@@ -66,7 +66,7 @@ export function Navbar() {
 
         <li>
         <a
-          href="#section-5"
+          href="#contact"
           className="inline-flex items-center text-md font-semibold"
         >
           Contact Us
@@ -100,7 +100,7 @@ export function Navbar() {
                 <div className="mt-6 nav-bar">
                   <nav className="grid gap-y-4">
                 <a
-                   href="#section-1"
+                   href="#about"
                   className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                 >
                   <span className="ml-3 text-base font-medium">
@@ -109,7 +109,7 @@ export function Navbar() {
                   
                 </a>
                 <a
-                   href="#section-2"
+                   href="#services"
                   className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                 >
                   <span className="ml-3 text-base font-medium">
@@ -118,7 +118,7 @@ export function Navbar() {
                   
                 </a>
                 <a
-                   href="#section-3"
+                   href="#process"
                   className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                 >
                   <span className="ml-3 text-base font-medium">
@@ -127,7 +127,7 @@ export function Navbar() {
                   
                 </a>
                 <a
-                   href="#section-4"
+                   href="#industries"
                   className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                 >
                   <span className="ml-3 text-base font-medium">
@@ -136,7 +136,7 @@ export function Navbar() {
                   
                 </a>
                 <a
-                   href="#section-6"
+                   href="#technologies"
                   className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                 >
                   <span className="ml-3 text-base font-medium">
@@ -145,7 +145,7 @@ export function Navbar() {
                   
                 </a>
                 <a
-                   href="#section-5"
+                   href="#contact"
                   className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                 >
                   <span className="ml-3 text-base font-medium">

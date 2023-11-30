@@ -198,7 +198,7 @@ const Stepper = () => {
 
 
   return (
-<div id="section-3" className="pt-32 sm:pt-44">
+<div id="process" className="pt-32 sm:pt-44">
 <br></br>
   <br></br>
   <h2 className="heading-style-3 text-center">

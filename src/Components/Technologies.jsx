@@ -4,7 +4,7 @@ const Technologies = () => {
   
 
   return (
-    <div id="section-6" className="mx-auto max-w-8xl  pt-32 sm:pt-44 md:px-6">
+    <div id="technologies" className="mx-auto max-w-8xl  pt-32 sm:pt-44 md:px-6">
       <h2 className="heading-style-3 text-center">
         Operational Technologies Suite
       </h2>

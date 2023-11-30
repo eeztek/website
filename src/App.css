@@ -198,19 +198,6 @@ background-repeat: round;
 }
 
 
-
-.hero-img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  background-position: center;
-}
-.img-bg {
-  position: absolute;
-  z-index: -100;
-  width: 110%;
-}
-
 .pool-box-list {
   width: 100px;
   height: 100px;
@@ -259,3 +246,17 @@ background-repeat: round;
     height: 120px;
   }
 }
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background-position: center;
+}
+.img-bg {
+  display: block;
+  position: absolute;
+  /* z-index: -100; */
+  width: 110%;
+}
+

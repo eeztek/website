@@ -52,13 +52,39 @@ const Hero = () => {
             </div>
           </form>
         </div>
-        <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
+        <div className="my-6 relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
             <br /><br />
-          <img
+          <image class="img-bg" src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/banner_h_4_red_shape.png"/>
+<svg id="sw-js-blob-svg" viewBox="0 0 100 100"
+    xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+            <stop id="stop1" stop-color="rgba(248, 117, 55, 1)" offset="0%"></stop>
+            <stop id="stop2" stop-color="rgba(251, 168, 31, 1)" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <mask id="mask-1" mask-type="alpha">
+        <path fill="url(#sw-gradient)"
+        d="M17,-23.9C23.9,-22,32.6,-20.4,36.5,-15.6C40.4,-10.7,39.5,-2.6,37.1,4.4C34.7,11.5,30.8,17.4,26.3,22.9C21.7,28.5,16.6,33.6,9.8,37.5C3,41.3,-5.3,43.9,-12.4,41.9C-19.4,39.9,-25.2,33.4,-29.8,26.6C-34.4,19.9,-37.7,12.9,-36.7,6.5C-35.8,0.1,-30.5,-5.7,-27.9,-13.3C-25.3,-20.9,-25.4,-30.4,-21.2,-33.5C-17.1,-36.6,-8.5,-33.4,-1.7,-30.7C5.1,-28,10.1,-25.8,17,-23.9Z"
+        width="100%" height="100%" transform="translate(50 50)" style={{transition: "all 0.3s ease 0s"}} stroke-width="0">
+        </path>
+    </mask>
+    <g mask="url(#mask-1)">
+        <path fill="url(#sw-gradient)"
+            d="M17,-23.9C23.9,-22,32.6,-20.4,36.5,-15.6C40.4,-10.7,39.5,-2.6,37.1,4.4C34.7,11.5,30.8,17.4,26.3,22.9C21.7,28.5,16.6,33.6,9.8,37.5C3,41.3,-5.3,43.9,-12.4,41.9C-19.4,39.9,-25.2,33.4,-29.8,26.6C-34.4,19.9,-37.7,12.9,-36.7,6.5C-35.8,0.1,-30.5,-5.7,-27.9,-13.3C-25.3,-20.9,-25.4,-30.4,-21.2,-33.5C-17.1,-36.6,-8.5,-33.4,-1.7,-30.7C5.1,-28,10.1,-25.8,17,-23.9Z"
+            width="100%" height="100%" transform="translate(50 50)"style={{transition: "all 0.3s ease 0s"}} stroke-width="0">
+        </path>
+    <image class="hero-img" x="2" y="13" href="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/banner_h_4_img.png" />
+    </g>
+</svg>
+
+
+          {/* <img
             className="aspect-[3/2] bg-gray-50 object-cover lg:aspect-[4/3] lg:h-[700px] xl:aspect-[16/9]"
             src={hero2}
             alt=""
-          />
+          /> */}
+
         </div>
       </div>
       <br /><br /><br />

@@ -15,7 +15,7 @@ const About = () => {
 //       };
       
   return (
-    <section id="section-1">
+    <section id="about">
       <div
       // style={styles}
         className="z-1 relative ml-5 pr-3  pb-20 sm:pb-32 pt-44 sm:pt-52  lg:flex lg:flex-row lg:items-center justify-center"
