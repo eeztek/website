@@ -54,7 +54,7 @@ const Hero = () => {
         </div>
         <div className="my-6 relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
             <br /><br />
-          <image class="img-bg" src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/banner_h_4_red_shape.png"/>
+            <image class="img-bg" src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/banner_h_4_red_shape.png"/>
 <svg id="sw-js-blob-svg" viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg">
     <defs>

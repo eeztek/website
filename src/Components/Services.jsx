@@ -6,7 +6,7 @@ export function Services() {
     
   return (
     <>
-      <div id="services" className="mx-auto max-w-7xl  pt-32 sm:pt-44 md:px-6">
+      <div id="services" className="mx-auto max-w-7xl  pt-28 sm:pt-32 md:px-6">
         <h2 className="heading-style-3 text-center">Our Services</h2>
         <h1 className="heading-style-2  text-center ">
           Preparing for Your Success, We Provide End-to-End IT Services
@@ -155,7 +155,7 @@ export function Services() {
       {/* Over Services */}
       <section>
         <div
-          className="z-1 relative ml-5 pr-3 py-12 mt-12 md:py-10  lg:flex lg:flex-row lg:items-center justify-center"
+          className="z-1 relative ml-5 pr-3 sm:pt-12 lg:flex lg:flex-row lg:items-center justify-center"
         >
           <div className="w-full lg:w-1/3">
             <img
@@ -166,10 +166,10 @@ export function Services() {
           </div>
           <div className="w-full lg:w-1/2">
             <div className="my-10 lg:my-0 lg:px-10">
-              <h2 className="heading-style-3 leading-tight text-black sm:text-2xl lg:text-3xl">
+              <h2 className="heading-style-3">
                 Why Choose Our Services!
               </h2>
-              <h2 className="heading-style-2 font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+              <h2 className="heading-style-2">
                 Leading the best digital agency
               </h2>
               <p className="font-style mt-4 max-w-xl text-base leading-relaxed text-gray-600">

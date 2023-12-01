@@ -100,6 +100,7 @@ export function Navbar() {
                 <div className="mt-6 nav-bar">
                   <nav className="grid gap-y-4">
                 <a
+                onClick={toggleMenu}
                    href="#about"
                   className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                 >
@@ -109,6 +110,7 @@ export function Navbar() {
                   
                 </a>
                 <a
+                onClick={toggleMenu}
                    href="#services"
                   className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                 >
@@ -118,6 +120,7 @@ export function Navbar() {
                   
                 </a>
                 <a
+                onClick={toggleMenu}
                    href="#process"
                   className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                 >
@@ -127,6 +130,7 @@ export function Navbar() {
                   
                 </a>
                 <a
+                onClick={toggleMenu}
                    href="#industries"
                   className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                 >
@@ -136,6 +140,7 @@ export function Navbar() {
                   
                 </a>
                 <a
+                onClick={toggleMenu}
                    href="#technologies"
                   className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                 >
@@ -145,6 +150,7 @@ export function Navbar() {
                   
                 </a>
                 <a
+                onClick={toggleMenu}
                    href="#contact"
                   className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                 >

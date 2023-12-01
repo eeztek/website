@@ -4,7 +4,7 @@ const Technologies = () => {
   // className="mx-auto max-w-7xl  pt-32 sm:pt-44 md:px-6"
 
   return (
-    <div id="technologies" className="mx-auto max-w-7xl  pt-32 sm:pt-44 md:px-6">
+    <div id="technologies" className="mx-auto max-w-7xl  pt-28 sm:pt-32 md:px-6">
       <h2 className="heading-style-3 text-center">
         Operational Technologies Suite
       </h2>
@@ -23,8 +23,9 @@ const Technologies = () => {
                     className="w-10 h-10"
                   />
                 </i>
+                </span>
                 <small>JavaScript</small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -111,8 +112,9 @@ const Technologies = () => {
                     
                   />
                 </i>
+                </span>
                 <small>TypeScript</small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -195,8 +197,9 @@ const Technologies = () => {
                     
                   />
                 </i>
+                </span>
                 <small>ASP.NET</small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -223,8 +226,11 @@ const Technologies = () => {
                     
                   />
                 </i>
-                <small>Woo Commerce</small>
-              </span>
+                </span>
+                <small>Woo
+                  <br />Commerce
+                </small>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -250,8 +256,9 @@ const Technologies = () => {
                     
                   />
                 </i>
+                </span>
                 <small>Magento</small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -264,8 +271,9 @@ const Technologies = () => {
                     
                   />
                 </i>
+                </span>
                 <small>WordPress</small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -302,8 +310,9 @@ const Technologies = () => {
                     alt="Unreal Engine-icon"
                   />
                 </i>
+                </span>
                 <small>Unreal Engine</small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -314,12 +323,12 @@ const Technologies = () => {
                     alt="ARKit (Apple)-icon"
                   />
                 </i>
+                </span>
                 <small>
                   ARKit
-                  <br />
                   (Apple)
                 </small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -330,8 +339,10 @@ const Technologies = () => {
                     alt="ARCore (Google)-icon"
                   />
                 </i>
-                <small>ARCore (Google)</small>
-              </span>
+                </span>
+                <small>ARCore
+                  (Google)</small>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -343,9 +354,7 @@ const Technologies = () => {
                   />
                 </i>
                 <small>
-                  Amazon
-                  <br />
-                  Web Services
+                AWS 
                 </small>
               </span>
             </div>
@@ -358,8 +367,10 @@ const Technologies = () => {
                     alt="Azure-icon"
                   />
                 </i>
-                <small>Microsoft Azure</small>
-              </span>
+                </span>
+                <small>Microsoft 
+                 <br /> Azure</small>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -370,7 +381,8 @@ const Technologies = () => {
                     alt="Google Cloud Platform-icon"
                   />
                 </i>
-                <small>Google Cloud Platform</small>
+                <small>Google
+                  <br /> Cloud</small>
               </span>
             </div>
             <div className="pool-box-list">
@@ -382,8 +394,9 @@ const Technologies = () => {
                     alt="Kubernetes-icon"
                   />
                 </i>
+                </span>
                 <small>Kubernetes</small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -406,8 +419,9 @@ const Technologies = () => {
                     alt="Terraform-icon"
                   />
                 </i>
+                </span>
                 <small>Terraform</small>
-              </span>
+             
             </div>
             <div className="pool-box-list">
               <span>
@@ -442,8 +456,9 @@ const Technologies = () => {
                     alt="Apache Spark-icon"
                   />
                 </i>
+                </span>
                 <small>Apache Spark</small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -454,8 +469,9 @@ const Technologies = () => {
                     alt="Apache Kafka-icon"
                   />
                 </i>
+                </span>
                 <small>Apache Kafka</small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -466,8 +482,9 @@ const Technologies = () => {
                     alt="Elasticsearch-icon"
                   />
                 </i>
+                </span>
                 <small>Elasticsearch</small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -478,8 +495,9 @@ const Technologies = () => {
                     alt="TensorFlow-icon"
                   />
                 </i>
+                </span>
                 <small>TensorFlow</small>
-              </span>
+             
             </div>
             <div className="pool-box-list">
               <span>
@@ -502,8 +520,9 @@ const Technologies = () => {
                     alt="OpenCV-icon"
                   />
                 </i>
+                </span>
                 <small>OpenCV</small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -514,8 +533,9 @@ const Technologies = () => {
                     alt="Dialogflow-icon"
                   />
                 </i>
+                </span>
                 <small>Dialogflow</small>
-              </span>
+              
             </div>
             <div className="pool-box-list">
               <span>
@@ -526,8 +546,9 @@ const Technologies = () => {
                     alt="Testing-icon"
                   />
                 </i>
+                </span>
                 <small>Testing</small>
-              </span>
+              
             </div>
           </div>
         </div>

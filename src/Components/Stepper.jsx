@@ -198,9 +198,8 @@ const Stepper = () => {
 
 
   return (
-<div id="process" className="pt-32 sm:pt-44">
-<br></br>
-  <br></br>
+<div id="process" className="pt-28 sm:pt-32">
+
   <h2 className="heading-style-3 text-center">
           Our Process
         </h2>
@@ -249,7 +248,7 @@ const Stepper = () => {
         className="mt-3"
           elevation={3}
           sx={{
-            paddingBottom: "16px",
+            // paddingBottom: "16px",
             paddingTop:"18px",
             backgroundColor: "#152445", // Green background
             color: "#fc3737", // White text
@@ -279,7 +278,6 @@ const Stepper = () => {
   </Carousel>
 </Container>
 </div>
-<br /><br />
     </div>
   );
 };

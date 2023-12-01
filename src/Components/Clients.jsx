@@ -12,7 +12,8 @@ export function Clients() {
       <div className="mx-auto max-w-xl text-center">
            
            <h1 className="heading-style-2  text-center ">
-            Trusted By World Class Companies
+            Trusted By 
+           <br /> World Class Companies
         </h1>
            </div>
            

@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import { ArrowRight } from "lucide-react";
-
 import axios from "axios";
+import Alert from '@mui/material/Alert';
 let API_form =
   "patpoaj7837lQkMsY.8832ca40d97e5f8f405d6ceffd2e33011c6306cab0ecf8fe4823504c9f18677e";
 
@@ -36,20 +36,28 @@ export function Contact() {
           }
         )
         .then((response) => {
-          // console.log('Success:', response.data);
-          // Redirect to the 'thank you' page after a successful submission
-          window.location.href = "/thankyou"; // Replace with your actual 'thank you' page URL
+          if (response.status === 200) {
+            // The request was successful, show the alert
+            alert("ok!");
+            // Redirect to the 'thank you' page after a successful submission
+            // window.location.href = "/thankyou";
+          } else {
+            // The request was successful, but the server returned a non-OK status
+            console.log("Non-OK response status:", response.status);
+          }
+
         })
   
         .catch((err) => {
-          console.log("ERROr", err);
+          alert("ERROR", err);
+          console.log("ERROR", err);
         });
     };
 
 
   return (
     <section  id="contact">
-      <div className="mx-6 sm:mx-4 py-32 sm:py-44 grid grid-cols-1 lg:grid-cols-2">
+      <div className="mx-6 sm:mx-4 py-28 sm:py-32 grid grid-cols-1 lg:grid-cols-2">
         <div className="relative flex items-end px-4 pb-10 pt-60 sm:px-6 sm:pb-16 md:justify-center lg:px-8 lg:pb-24">
           <div className="absolute inset-0">
             <img

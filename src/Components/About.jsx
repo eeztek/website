@@ -18,7 +18,7 @@ const About = () => {
     <section id="about">
       <div
       // style={styles}
-        className="z-1 relative ml-5 pr-3  pb-20 sm:pb-32 pt-44 sm:pt-52  lg:flex lg:flex-row lg:items-center justify-center"
+        className="z-1 relative ml-5 pr-3 pt-28 sm:pt-32  lg:flex lg:flex-row lg:items-center justify-center"
       >
         <div className="w-full lg:w-1/3">
           <img
@@ -29,10 +29,10 @@ const About = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <div className="my-10 lg:my-0 lg:px-10">
-            <h2 className="heading-style-3 leading-tight text-black sm:text-2xl lg:text-3xl">
+            <h2 className="heading-style-3">
               About Us
             </h2>
-            <h2 className="heading-style-2 font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+            <h2 className="heading-style-2">
             Make it easy to do your business with us and we are best
             </h2>
             <p className="font-style mt-4 max-w-xl text-base leading-relaxed text-gray-600">

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Testimonial = () => {
   return (
-    <div id="" className="mx-auto max-w-8xl  pt-32 sm:pt-44 md:px-6">
+    <div id="" className="mx-auto max-w-7xl pt-28 sm:pt-32 md:px-6">
     <h2 className="heading-style-3 text-center">
     Testimonial
     </h2>
