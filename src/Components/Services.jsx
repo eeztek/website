@@ -6,7 +6,7 @@ export function Services() {
     
   return (
     <>
-      <div id="services" className="mx-auto max-w-7xl  pt-28 sm:pt-32 md:px-6">
+      <div id="services" className="mx-auto max-w-7xl  pt-28 sm:pt-32 px-6">
         <h2 className="heading-style-3 text-center">Our Services</h2>
         <h1 className="heading-style-2  text-center ">
           Preparing for Your Success, We Provide End-to-End IT Services
@@ -155,16 +155,16 @@ export function Services() {
       {/* Over Services */}
       <section>
         <div
-          className="z-1 relative ml-5 pr-3 sm:pt-12 lg:flex lg:flex-row lg:items-center justify-center"
+          className="mx-auto max-w-7xl z-1 relative sm:pt-16 lg:flex lg:flex-row lg:items-center justify-center px-6"
         >
-          <div className="w-full lg:w-1/3">
+          <div className="mx-auto w-full lg:w-2/5">
             <img
               src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
               alt="ManWith Laptop"
               className="h-full w-full rounded-md object-cover"
             />
           </div>
-          <div className="w-full lg:w-1/2">
+          <div className="mx-auto w-full lg:w-1/2">
             <div className="my-10 lg:my-0 lg:px-10">
               <h2 className="heading-style-3">
                 Why Choose Our Services!

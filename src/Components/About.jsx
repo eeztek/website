@@ -18,16 +18,16 @@ const About = () => {
     <section id="about">
       <div
       // style={styles}
-        className="z-1 relative ml-5 pr-3 pt-28 sm:pt-32  lg:flex lg:flex-row lg:items-center justify-center"
+        className="mx-auto max-w-7xl z-1 relative  pt-28 sm:pt-32  lg:flex lg:flex-row lg:items-center justify-center px-6"
       >
-        <div className="w-full lg:w-1/3">
+        <div className="mx-auto w-full lg:w-2/5">
           <img
             src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
             alt="ManWith Laptop"
             className="h-full w-full rounded-md object-cover"
           />
         </div>
-        <div className="w-full lg:w-1/2">
+        <div className="mx-auto w-full lg:w-1/2">
           <div className="my-10 lg:my-0 lg:px-10">
             <h2 className="heading-style-3">
               About Us
