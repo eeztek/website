@@ -2,13 +2,13 @@ import React from "react";
 
 
 export function Services() {
-  
-    
+ 
+   
   return (
     <>
       <div id="services" className="mx-auto max-w-7xl  pt-28 sm:pt-32 px-6">
         <h2 className="heading-style-3 text-center">Our Services</h2>
-        <h1 className="heading-style-2  text-center ">
+        <h1 className="heading-style-2  text-center leading-none">
           Preparing for Your Success, We Provide End-to-End IT Services
         </h1>
 
@@ -31,7 +31,7 @@ export function Services() {
           </div>
           <div className="p-5 space-y-3">
             <img
-              class=" lazyloaded"
+              class="lazyloaded"
               decoding="async"
               src="https://d33ykw8w8rzm0e.cloudfront.net/wp-content/uploads/2022/05/Mobile-Development.svg"
               data-src="https://d33ykw8w8rzm0e.cloudfront.net/wp-content/uploads/2022/05/Mobile-Development.svg"
@@ -155,21 +155,22 @@ export function Services() {
       {/* Over Services */}
       <section>
         <div
-          className="mx-auto max-w-7xl z-1 relative sm:pt-16 lg:flex lg:flex-row lg:items-center justify-center px-6"
+          className="mx-auto max-w-7xl z-1 relative sm:pt-16 lg:flex lg:flex-row lg:items-center justify-center"
         >
-          <div className="mx-auto w-full lg:w-2/5">
+          <div className="px-6 sm:px-6 lg:px-0 mx-auto w-full lg:w-2/5">
+         
             <img
               src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
               alt="ManWith Laptop"
               className="h-full w-full rounded-md object-cover"
             />
           </div>
-          <div className="mx-auto w-full lg:w-1/2">
-            <div className="my-10 lg:my-0 lg:px-10">
+          <div className="w-full lg:w-1/2">
+          <div className="my-10 lg:my-0 px-6">
               <h2 className="heading-style-3">
                 Why Choose Our Services!
               </h2>
-              <h2 className="heading-style-2">
+              <h2 className="heading-style-2 leading-none">
                 Leading the best digital agency
               </h2>
               <p className="font-style mt-4 max-w-xl text-base leading-relaxed text-gray-600">
@@ -177,7 +178,7 @@ export function Services() {
                 proactive domination At the end of the day.
               </p>
               <div className="mt-6 items-center gap-x-3">
-                <div className="flex">
+                <div className="flex py-2">
                 <img decoding="async" src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service_shape_image_1.png" alt="image" width="50px" height="50px" />
                   <h2 className="heading-style-5 ml-6">First Growing Process
                   <br />
@@ -185,11 +186,11 @@ export function Services() {
                   Bring to the table win-win survival strategies to ensur.
               </p>
                   </h2>
-                  
-                  
+                 
+                 
                 </div>
 
-                <div className="flex">
+                <div className="flex py-2">
                 <img decoding="async" src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service_shape_image_2.png" alt="image" width="50px" height="50px"/>
                 <h2 className="heading-style-5 ml-6">Dedicated Support 24/7
                   <br />
@@ -198,7 +199,7 @@ export function Services() {
               </p>
                   </h2>
                 </div>
-                <div className="flex">
+                <div className="flex py-2">
                 <img decoding="async" src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service_shape_image_3.png" alt="image" width="50px" height="50px"/>
                 <h2 className="heading-style-5 ml-6">Clean Code Design
                   <br />
@@ -209,7 +210,7 @@ export function Services() {
               </div>
               </div>
 
-              <form action="#" method="POST" className="mt-8 max-w-xl">
+              {/* <form action="#" method="POST" className="mt-8 max-w-xl">
                 <div className="flex flex-col sm:flex-row sm:items-center">
                   <div className="d-flex">
                     <button type="button" className="primary-btn d-flex">
@@ -227,7 +228,7 @@ export function Services() {
                     </button>
                   </div>
                 </div>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>
@@ -236,3 +237,4 @@ export function Services() {
     </>
   );
 }
+

@@ -4,7 +4,7 @@ const Technologies = () => {
   // className="mx-auto max-w-7xl  pt-32 sm:pt-44 md:px-6"
 
   return (
-    <div id="technologies" className="mx-auto max-w-7xl  pt-28 sm:pt-32 md:px-6">
+    <div id="technologies" className="mx-6 sm:mx-auto max-w-7xl  pt-28 sm:pt-32 md:px-6">
       <h2 className="heading-style-3 text-center">
         Operational Technologies Suite
       </h2>
@@ -12,8 +12,8 @@ const Technologies = () => {
         We employ various technologies based on your requirements.
       </h1>
       <div className="mt-8 mx-8 sm:mx-0 flex flex-wrap items-center">
-        <div className="mx-auto w-full lg:w-7/12">
-          <div className="grid grid-cols-3 lg:grid-cols-6 md:grid-cols-5 ">
+        <div className="mx-auto w-full lg:w-full">
+          <div className="grid grid-cols-3 lg:grid-cols-8 md:grid-cols-6 ">
             <div className="pool-box-list">
               <span>
                 <i>
@@ -546,13 +546,13 @@ const Technologies = () => {
                     alt="Testing-icon"
                   />
                 </i>
-                </span>
+                
                 <small>Testing</small>
-              
+                </span>
             </div>
           </div>
         </div>
-        <div className="mx-auto w-full lg:w-4/12">
+        {/* <div className="mx-auto w-full lg:w-4/12">
           <h4 className="font-style-3 my-8">
             As a leading Software Solutions company, we have an in-house team of
             experts specializing in a diverse array of web development
@@ -572,7 +572,7 @@ const Technologies = () => {
               </button>
               
             </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
